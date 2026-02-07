@@ -1,0 +1,10 @@
+#!/bin/csh
+
+setenv SPARTAP_DIR /home/username/Softwares/sparta+/SPARTA+
+setenv SPARTA_DIR  /home/username/Softwares/sparta+/SPARTA+
+
+if ($#argv >= 1) then
+	$SPARTAP_DIR/bin/SPARTA+ -spartaDir $SPARTAP_DIR $argv[1-$#argv]
+else
+	$SPARTAP_DIR/bin/SPARTA+
+endif
