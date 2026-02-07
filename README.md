@@ -6,7 +6,7 @@ This repository provides a graph-transformer–based pipeline to predict binding
 
 ```
 conda env create -f kd_predict.yml -y
-conda activate kd_predict.yml
+conda activate kd_predict
 ```
 
 # SPARTA+ setup
