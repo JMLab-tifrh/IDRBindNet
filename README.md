@@ -10,11 +10,12 @@ conda activate kd_predict.yml
 ```
 
 # Running Kd Prediction [The model works for IDR-Protein complex where the first chain is the IDR and second chain is the Protein]
-[ path/to/complex.pdb : This should be the location of the pdb file of the complex. No need to include the name of the pdb file]
 
 ```
 python3 run_all.py --pdb_dir path/to/complex.pdb
 ```
+
+## path/to/complex.pdb : This should be the location of the pdb file of the complex. No need to include the name of the pdb file
 
 # Output
 The pipeline creates an output directory where the pdb file (complex.pdb) is located : complex/
@@ -35,4 +36,6 @@ Std_Kd_uM – Standard deviation across model splits
 ```
 
 
-Kd values are reported in micromolar (µM).
+## Kd values are reported in micromolar (µM).
+
+### If you have single or multiple pdb(s), then a All_Kd.csv file will be created, which will be the concatenated csv files for all the complexes for which the Kd was computed in /path/to/complex.pdb.
