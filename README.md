@@ -21,6 +21,7 @@ conda activate kd_predict
 
 # Running Kd Prediction 
 ### The model has been trained for IDR-Protein complex where the first chain is the IDR and second chain is the Protein
+### Run the command below in the GT-IDR-Bind directory
 
 ```
 python3 run_all.py --pdb_dir path/to/complex.pdb
