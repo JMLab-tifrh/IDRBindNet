@@ -45,7 +45,7 @@ Chain_A – Amino acid sequence of IDR
 
 Chain_B – Amino acid sequence of Protein
 
-Mean_Kd_uM – Mean predicted dissociation constant
+Mean_Kd_uM – Mean predicted Kd
 
 Std_Kd_uM – Standard deviation across model splits
 ```
