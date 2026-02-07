@@ -9,13 +9,27 @@ conda env create -f kd_predict.yml -y
 conda activate kd_predict.yml
 ```
 
-# Running Kd Prediction [The model works for IDR-Protein complex where the first chain is the IDR and second chain is the Protein]
+# SPARTA+ setup
+#### For Kd prediction, the Chemical shift needs to be calculated using SPARTA+.
+
+```
+1. Update the sparta+ sparta+Init.com file using the file provided in the repository. Change username as per your name
+2. Run install.com using csh shell
+3. export PATH="/home/username/Softwares/sparta+/SPARTA+/:$PATH"  <----- put this in bashrc
+```
+
+
+# Running Kd Prediction 
+### The model has been trained for IDR-Protein complex where the first chain is the IDR and second chain is the Protein
 
 ```
 python3 run_all.py --pdb_dir path/to/complex.pdb
 ```
 
-## path/to/complex.pdb : This should be the location of the pdb file of the complex. No need to include the name of the pdb file
+#### path/to/complex.pdb : This should be the location of the pdb file of the complex. No need to include the name of the pdb file
+
+
+
 
 # Output
 The pipeline creates an output directory where the pdb file (complex.pdb) is located : complex/
