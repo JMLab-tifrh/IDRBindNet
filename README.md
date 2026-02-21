@@ -1,4 +1,4 @@
-# GT-IDR-Bind
+# IDRBindNet
 
 This repository provides a graph-transformer–based pipeline to predict binding affinities for IDR–Protein complexes from PDB structures. The workflow includes feature extraction, graph construction, and inference using a pretrained model.
 
