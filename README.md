@@ -53,4 +53,4 @@ Std_Kd_uM – Standard deviation across model splits
 
 ## Kd values are reported in micromolar (µM).
 
-### If you have single or multiple pdb(s), then a All_Kd.csv file will be created, which will be the concatenated csv files for all the complexes for which the Kd was computed in /path/to/complex.pdb.
+### If you have single or multiple pdb(s), then a All_Kd.csv file will be created, which will be the concatenated csv files for all the complexes.
