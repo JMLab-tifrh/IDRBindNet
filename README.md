@@ -35,7 +35,7 @@ The pipeline creates output directory where the pdb file is located. If the pdb 
 
 Inside this directory, the final result is saved as : complex_1_kd.csv
 
-The complex_kd.csv contains ID, Chain_A, Chain_B, Mean_Kd_uM, Std_Kd_uM
+The complex_1_kd.csv contains ID, Chain_A, Chain_B, Mean_Kd_uM, Std_Kd_uM
 
 The Kd value from each model will also be saved as a csv file as complex_1_split_0_kd.csv, complex_1_split_1_kd.csv and so on for the five models.
 ```
