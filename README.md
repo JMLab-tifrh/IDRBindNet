@@ -26,7 +26,7 @@ conda activate kd_predict
 ### Run the command below. Change the path as per where "run_all.py" is present
 
 ```
-python3 /home/username/IDRBindNet/GT-IDR-Bind/run_all.py --pdb_dir . --gpu_id 0
+python3 /home/username/IDRBindNet-main/GT-IDR-Bind/run_all.py --pdb_dir . --gpu_id 0
 ```
 
 
